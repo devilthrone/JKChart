@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="JKPieChart">
+        <attr name="isRound" format="boolean" />
+        <attr name="showTitle" format="boolean" />
+        <attr name="hintTitleColor" format="color|reference" />
+        <attr name="hintTitleSize" format="dimension|reference" />
+    </declare-styleable>
+    <declare-styleable name="JKLineChart">
+        <attr name="indicatorType">
+            <enum name="cricle" value="0" />
+            <enum name="rectangle" value="1" />
+        </attr>
+        <attr name="showHintBlock" format="boolean" />
+        <attr name="coordGap" format="integer|reference" />
+        <!--坐标间隔-->
+    </declare-styleable>
+</resources>
